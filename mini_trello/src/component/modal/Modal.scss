@@ -1,0 +1,19 @@
+.modal-container {
+    .header, .body, .footer {
+        background-color: var(--bg-black);
+        color: var(--text-white);
+    }
+
+    .header {
+        border: none;
+    }
+
+    .body {
+        padding: 1rem 2rem;
+    }
+    .footer{
+        justify-content: flex-start;
+        border-top: 1px solid var(--bg-black);
+        padding: 1rem 2rem;
+    }
+}

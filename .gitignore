@@ -1,0 +1,10 @@
+mini_trello_api/node_modules
+mini_trello/node_modules
+mini_trello/public/.DS_Store
+mini_trello_api/.env
+mini_trello/src/assets/images/.DS_Store
+mini_trello/src/assets/.DS_Store
+mini_trello/.DS_Store
+mqtt/config/.DS_Store
+mqtt/.DS_Store
+.DS_Store

@@ -1,0 +1,21 @@
+.main-container {
+    background-color: var(--bg-grey);
+    width: 100vw;
+    height: 100vh;
+    color: var(--text-white);
+    overflow: scroll;
+}
+
+.welcome {
+    height: 100%;
+    font-size: 2em;
+    margin: 10rem 32rem;
+    p {
+        margin-top: 1em;
+        font-size: var(--font-size-medium);
+    }
+    img {
+        width: 15rem;
+        height: 15rem;
+    }
+}

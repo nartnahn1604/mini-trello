@@ -1,0 +1,28 @@
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 8em;
+    transition: all 2s ease;
+
+    img {
+        width: 10rem;
+        height: 10rem;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        object-fit: cover;
+    }
+
+    form {
+        width: 100%;
+        margin-top: 1rem;
+
+        button {
+            font-size: var(--font-size-medium);
+            font-weight: 700;
+            margin-top: .5rem;
+        }
+    }
+}

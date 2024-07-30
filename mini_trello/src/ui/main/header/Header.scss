@@ -1,0 +1,39 @@
+.header {
+    background-color: var(--bg-black);
+    max-height: 10vh;
+    padding: 2rem 1rem;
+    width: 100%;
+    position: sticky;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .right {
+        height: 100%;
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-left: 1rem;
+            color: var(--text-white);
+        }
+
+        .notification {
+            position: relative;
+            .num-of-noti {
+                position: absolute;
+                width: 1.2rem;
+                height: 1.2rem;
+                top: -20%;
+                right: -15%;
+                background-color: var(--bg-blue);
+                color: var(--text-white);
+                border-radius: 100%;
+                // padding: 0.1rem;
+                text-align: center;
+                font-size: var(--font-size-small);
+            }
+        }
+    }
+}

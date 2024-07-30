@@ -1,0 +1,29 @@
+$box-shadow-dark: 0 0 0 0.25rem rgba(56, 52, 52, 0.25);
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-text-wrapper{
+    .form-text {
+        line-height: var(--form-line-height);
+        &:focus {
+            border-color: var(--bg-black);
+            box-shadow: $box-shadow-dark;
+        }
+    }
+}
+
+.form-select {
+    display: flex;
+    flex-direction: column;
+
+    .errors {
+        color: red;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+}

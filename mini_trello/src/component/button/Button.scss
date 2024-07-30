@@ -1,0 +1,60 @@
+$light: invert(100%) sepia(0%) saturate(0%) hue-rotate(88deg) brightness(104%) contrast(101%);
+$dark: invert(18%) sepia(1%) saturate(2557%) hue-rotate(314deg) brightness(102%) contrast(93%);
+$blue: invert(0%) sepia(100%) saturate(747%) hue-rotate(204deg) brightness(100%) contrast(100%);
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bg-black);
+    color: var(--text-white);
+    line-height: var(--form-line-height);
+
+    &.blue {
+        background-color: var(--bg-blue);
+        color: var(--text-white);
+
+        .img {
+            filter: $light;
+        }
+
+        &:hover {
+            background-color: var(--bg-white);
+            color: var(--text-blue);
+            border: 1px solid var(--bg-blue);
+            
+            .img {
+                filter: $dark;
+            }
+        }
+    }
+
+    &:hover {
+        background-color: var(--bg-white);
+        color: var(--text-black);
+        border: 1px solid var(--bg-black);
+        
+        .img {
+            filter: $dark;
+        }
+    }
+
+    .img {
+        filter: $light;
+    }
+}
+
+.img {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    &:hover {
+        filter: $light;
+    }
+}
+
+.text {
+    cursor: pointer;
+    &:hover {
+        color: var(--text-active);
+    }
+}

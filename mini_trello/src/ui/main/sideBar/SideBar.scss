@@ -1,0 +1,44 @@
+.side-bar {
+    min-height: 90vh;
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+    overflow: scroll;
+
+    .board {
+        min-height: 20vh;
+
+        &>div{
+            border-radius: .5rem;
+        }
+
+        svg {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 1rem;
+        }
+
+        .board-list{
+            .board-member{
+                margin-left: 1rem;
+                .members {
+                    margin-left: 1rem;
+                    img{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        border-radius: 100%;
+                        margin-right: .5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .workspace {
+        border-top: 1px solid rgb(255, 255, 255, 0.5);
+
+        svg {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 1rem;
+        }
+    }
+}

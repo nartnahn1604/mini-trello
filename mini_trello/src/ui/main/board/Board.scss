@@ -1,0 +1,51 @@
+.board {
+    .card {
+        min-height: 10rem;
+        max-height: 10rem;
+        min-width: 100%;
+        cursor: pointer;
+        overflow: hidden;
+
+        .card-header, .card-footer {
+            height: 100%;
+            background-color: transparent;
+            border: none;
+            img, svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                margin-right: 1rem;
+            }
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: flex-end;
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg {
+                    margin-right: 0;
+                    width: 1rem;
+                    height: 1rem;
+                }
+            }
+        }
+        .card-body{
+            min-height: 100%;
+        }
+    }
+    .bg-transparent {
+        border: 1px solid var(--text-white);
+        .card-body {
+            h5 {
+                color: var(--text-white);
+            }
+        }
+    }
+
+    .create-button{
+        line-height: 1rem;
+        // font-size: var(--font-size-small);
+    }
+}

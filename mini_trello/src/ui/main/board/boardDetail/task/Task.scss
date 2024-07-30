@@ -1,0 +1,21 @@
+.tasks{
+    max-height: 60vh;
+    overflow: scroll;
+    height: fit-content;
+    .task {
+        border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+        padding: 1rem .5rem;
+        cursor: pointer;
+
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+            cursor: pointer;
+        }
+
+        &:hover {
+            background-color: var(--bg-active);
+            color: var(--text-active);
+        }
+    }
+}
